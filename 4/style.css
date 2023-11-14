@@ -1,0 +1,19 @@
+* {
+    list-style-type: none;
+}
+
+.for-task {
+    display: flex;
+}
+
+.column-1 {
+    width: 50%;
+}
+
+.column-2 {
+    width: 50%;
+}
+
+.column-2 li {
+    margin: 20px;
+}

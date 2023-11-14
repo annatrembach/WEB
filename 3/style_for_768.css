@@ -1,0 +1,149 @@
+@media (max-width: 768px) {
+    
+     /* header */
+    
+     .header-text {
+        display: none;
+    }
+
+    .header {
+        background-image: no-repeat;
+    }
+
+    .header h1 {
+        font-size: 40px;
+    }
+
+    .header li { 
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 16px 0px 0px 0px;
+    }
+    
+    .header ul {
+        margin-left: 0px;
+    }
+
+    .header-line {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 100%;
+        font-size: larger;
+    }
+    
+
+
+
+    /* main-section-1  */
+
+    .section-1-label {
+        flex-direction: column; 
+        height: 60px;  
+        justify-content: space-between;
+        margin: 10px 0px 10px 0px;
+    }
+
+    .main-section-1-images {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0px 20px 0px 20px;
+    }
+
+    .main-section-1-images img {
+        height: 100px;
+    }
+
+
+    /* main-section-2  */
+
+    .main-section-2-TOP-images {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-section-2 img {
+        height: 100px;
+        padding-top: 10px;
+    }
+
+    .main-section-2-TOP h3 {
+        display: none;
+    }
+
+    .main-section-2-images-with-label {
+        padding: 10px 0px 10px 0px;
+    }
+
+
+    /* main-section-3  */
+
+    .form-column-2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-column-2-grid {
+        display: grid;
+        grid-template-columns: 150px;
+        justify-content: center;
+    }
+    
+    .form-column-2-grid-image-with-label {
+        padding: 10px 0px 10px 0px;
+    }
+
+    .form-column-2 img {
+        justify-content: center;
+        height: 100px;
+    }
+    
+    .form-column-1 {
+        margin: 20px;
+    }
+
+    .form-textarea {
+        height: 200px;
+        width: 300px;
+    }
+
+    .form-button-submit {
+        width: 100%;
+    }
+
+    /* footer  */
+
+    .footer {
+        justify-content: center;
+        height: 30vh;
+    }
+
+    .footer::after {
+        height: 30vh;
+    }
+
+    .footer-section-1-div-1 {
+        display: none;
+    }
+
+    .footer-section-1-div-2 {
+        width: 50%;
+    }
+
+    .footer-section-1-div-3 {
+        width: 50%;
+    }
+
+    .footer-section-1-contacts {
+        font-size: 15px;
+    }
+
+    .footer-section-2 {
+        display: none;
+    }
+    
+    
+}

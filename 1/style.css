@@ -1,0 +1,104 @@
+* { 
+    margin: 0; padding: 0; 
+}
+
+.header {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #e94196;
+    color: white;
+    text-align: center;
+}
+.header h1 {
+    margin-left: 16px; padding-top: 16px;
+    margin-bottom: 16px;
+}
+.header ul {
+    font-style: none;
+    font-weight: 600;
+    list-style-type: none; 
+    margin-left: 16px; padding-top: 16px; padding-bottom: 16px;
+}
+.header li {
+    margin-right: 36px;
+    display: inline;
+}
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+.main {
+    background-color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+}
+.main h2 {
+    margin-left: 16px; padding-top: 16px;
+    margin-bottom: 16px;
+    text-align: center;
+    font-style: none;
+    color: #e94196;
+}
+.main p {
+    margin-left: 50px; margin-right: 50px;
+    text-indent: 40px;
+    text-align: justify; 
+}
+.main ul {
+    list-style-type: none; 
+    margin-left: 50px; 
+    margin-bottom: 16px;
+}
+.main-for-first-level {
+    margin-bottom: 16px;
+}
+.main-for-second-level li::before{
+    content: "-";
+    margin-right: 5px; 
+}
+.main-for-actors {
+    background-color: #e94196;
+    color: white;
+}
+.main-for-actors h2 {
+    font-style: none;
+    color: white;
+}
+.images{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.for-first-and-second-images{
+    margin-right: 20px;
+}
+.main-table {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+}
+.main-table td {
+    border: 3px solid #e94196;
+    padding: 5px; 
+}
+
+.footer {
+    background-color: #e94196;
+    text-align: center;
+}
+.footer ul{
+    font-style: none;
+    font-weight: 600;
+    list-style-type: none; 
+    margin-left: 16px; padding-top: 16px; padding-bottom: 16px;
+}
+.footer li{
+    display: inline;
+    color: white;
+    border-right: 1px solid white;
+    padding: 0 40px; 
+}
+.footer li:last-child {
+    border-right: 1px solid #e94196;
+}
