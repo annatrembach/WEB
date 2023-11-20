@@ -76,17 +76,24 @@ function third_task() {
 //4
 function fourth_task() {
     third_task();
+
     var coWorker = createCoWorker();
-    coWorker.showData = function() {
-        console.log(this.firstname);
-        console.log(this.lastname);
-        console.log(this.sex);
-        console.log(this.age);
-    } 
+    var ExtendedCoWorker = {
+        __proto__: coWorker, 
+        showData: function() {
+            console.log(this.firstname);
+            console.log(this.lastname);
+            console.log(this.sex);
+            console.log(this.age);
+        }
+    };
+    
 
     console.log("Четверте завдання");
-    coWorker.showData();
+    ExtendedCoWorker.showData();
 }
+
+
 
 
 //5
