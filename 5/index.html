@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Test</title>
+    <style>@import url(./style.css);</style>
+</head>
+<body>
+    <header class="header">
+        <ul>
+            <li>ТР-24</li>
+            <li>Трембач Анна Дмитрівна</li>
+            <li>20 варіант</li>
+            <br>
+            <button id="easylevel" onclick="choseLevel(this)">Easy level</button>
+            <button id="mediumlevel" onclick="choseLevel(this)">Medium level</button>
+            <button id="hardlevel" onclick="choseLevel(this)">Hard level</button>
+        </ul>
+    </header>
+    <div>
+        <br>
+        <p class="nameoftypequestions">Питання з вибором однієї правильної відповіді</p>
+        <p id="placefortask1"></p><br>
+        <p id="placefortask2"></p><br>
+        <br>
+        <p class="nameoftypequestions">Питання з вибором декількох правильних відповідей</p>
+        <p id="placefortask3"></p>
+        <p class="nameoftypequestions">Питання з відповідністю</p>
+        <p id="placefortask4"></p>
+        <p class="nameoftypequestions">Питання з відкритою відповіддю</p>
+        <p id="placefortask5"></p>
+        <div id="useranswer"></div>
+        <p id="placeforgrades"></p>
+    </div>
+    <button id="buttonsubmitid">submit</button>
+    <script src="./drag&drop.js"></script>
+    <script src="./script.js"></script>
+    <script src="./questionfortest.js"></script>
+    <script src="./test.js"></script>
+</body>
+</html>

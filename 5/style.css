@@ -1,0 +1,83 @@
+.div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    /* user-select:auto; */
+}
+
+.drag-container, .drop-container {
+    display: flex;
+    gap: 20px;
+}
+
+.draggable {
+    padding: 10px;
+    border: 1px solid #ccc;
+    cursor: grab;
+}
+
+.drop-target {
+    width: 300px;
+    height: 100px;
+    border: 2px dashed #ccc;
+    position: relative;
+}
+
+.drag-over {
+    border-color: #4CAF50;
+}
+
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    list-style-type: none;
+    margin: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.header li {
+    font-size: large;
+    padding: 10px;
+}
+
+.nameoftypequestions {
+    font-weight: bold;
+    font-size: 20px;
+    color: #e94196;
+}
+
+.nameofquestions {
+    color: palevioletred;
+}
+
+* button, a {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #ffffff;
+    border-color: #e94196;
+    color: #e94196;
+    font-weight: bold;
+    box-sizing: border-box;
+    border: 2px solid;
+    border-radius: 4px;
+    padding: 6px 10px;
+}
+.formtext {
+    color: #e94196;
+    font-size: 20px;
+}
+.formfields {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #ffffff;
+    border-color: #e94196;
+    color: #e94196;
+    font-weight: bold;
+    box-sizing: border-box;
+    border: 2px solid;
+    border-radius: 4px;
+    padding: 6px 10px;
+} 
