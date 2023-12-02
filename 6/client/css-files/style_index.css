@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    background-color: #fcc9dc; 
+}
+
+.header h1 {
+    color: rgb(238, 164, 189);
+}
+
+.header li {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 55px;
+    margin-top: 20px;
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.header li:last-child {
+    margin-right: 0;
+}
+
+.section-1 {
+    position: relative;
+    width: 70%;
+    background-color: #faeee0;
+}
+
+.section-1 p {
+    padding-left: 50px; padding-right: 50px;
+    text-indent: 40px;
+    text-align: justify; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: palevioletred;
+}
+
+.section-1 p:last-child {
+    padding-bottom: 0px;
+}
+
+.section-1-img-1 {
+    margin: 10px 10px 10px 0px;
+    float: left;
+    border-radius: 25%;
+}
+.section-1-img-2 {
+    margin: 10px 00px 10px 10px;
+    float: right;
+    border-radius: 25%;
+}
+
+.section-1-img-3 {
+    margin: 10px 00px 10px 10px;
+    float: none;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.section-1-img-3 img {
+    border-radius: 25%;
+}
+
+.section-2 {
+    width: 30%;
+    background-color: #fcc9dc;
+    position: relative;
+}
+
+.section-2-img-1 {
+    position: absolute;
+}
+
+.section-2-img-2 {
+    position: absolute;
+    left: +73px;
+    top: +50px;
+}
+
+.section-2-img-3 {
+    position: absolute;
+    left: +146px;
+    top: +100px;
+} 
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer {
+    background-color: #fcc9dc;
+    text-align: center;
+}
+.footer ul{
+    font-style: none;
+    font-weight: 600;
+    list-style-type: none; 
+    margin-left: 16px; padding-top: 16px; padding-bottom: 16px;
+}
+.footer li{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: inline;
+    color: white;
+    border-right: 1px solid white;
+    padding: 0 40px; 
+}
+.footer li:last-child {
+    border-right: 1px solid #fcc9dc;
+}
